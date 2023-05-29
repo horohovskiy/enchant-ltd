@@ -246,41 +246,41 @@ const sortOptions = [
 const products = [
     {
         id: 1,
-        name: 'Organize Basic Set (Walnut)',
-        price: '$149',
+        name: 'Dior Sauvage',
+        price: '$175',
         rating: 5,
         reviewCount: 38,
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-05-image-card-01.jpg',
+        imageSrc: 'https://static.beautytocare.com/media/catalog/product/cache/global/image/1300x1300/85e4522595efc69f496374d01ef2bf13/d/i/dior-sauvage-eau-de-toilette-200ml.jpg',
         imageAlt: 'TODO',
         href: '#',
     },
     {
         id: 2,
-        name: 'Organize Pen Holder',
-        price: '$15',
+        name: 'Kylie Cosmetics Matte Lip Kit',
+        price: '$59',
         rating: 5,
         reviewCount: 18,
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-05-image-card-02.jpg',
+        imageSrc: 'https://media.superpharm.eu/media/catalog/product/cache/07e643f7e64afe5b94f277b4a7389b28/k/y/kylie-cosmetics-matte-lip-kit-302-snow-way-bae-zestaw-do-makijazu-ust-1szt_2_.jpg',
         imageAlt: 'TODO',
         href: '#',
     },
     {
         id: 3,
-        name: 'Organize Sticky Note Holder',
-        price: '$15',
+        name: 'BLEU DE CHANEL',
+        price: '$199',
         rating: 5,
         reviewCount: 14,
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-05-image-card-03.jpg',
+        imageSrc: 'https://media.douglas.pl/medias/Ir1VfB819600-0-global.jpg?context=bWFzdGVyfGltYWdlc3wzNDk1M3xpbWFnZS9qcGVnfGgzNy9oYTYvMTYxMzgyNzUwMjkwMjIvSXIxVmZCODE5NjAwXzBfZ2xvYmFsLmpwZ3xhNWI0NDVlMjdkNzljYTg2OWRmYWMwYjdhZDM1ZGM2ZmQzZWZkZWJkMmY3YTgyOWE1NGUzNGRmNmM1NjVkYmY2&grid=true',
         imageAlt: 'TODO',
         href: '#',
     },
     {
         id: 4,
-        name: 'Organize Phone Holder',
-        price: '$15',
+        name: 'INGLOT INTENSE SPARKLER',
+        price: '$75',
         rating: 4,
         reviewCount: 21,
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-05-image-card-04.jpg',
+        imageSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXIfZOngnsCg5XkjqxFkGdD9zkB_Q1ii4QRs3IVdO5RsxO9Pbn',
         imageAlt: 'TODO',
         href: '#',
     },
@@ -878,67 +878,67 @@ export default function Example() {
                 </section>
 
                 {/* Pagination */}
-                <nav
-                    aria-label="Pagination"
-                    className="mx-auto mt-6 flex max-w-7xl justify-between px-4 text-sm font-medium text-gray-700 sm:px-6 lg:px-8"
-                >
-                    <div className="min-w-0 flex-1">
-                        <a
-                            href="components#"
-                            className="inline-flex h-10 items-center rounded-md border border-gray-300 bg-white px-4 hover:bg-gray-100 focus:border-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-opacity-25 focus:ring-offset-1 focus:ring-offset-indigo-600"
-                        >
-                            Previous
-                        </a>
-                    </div>
-                    <div className="hidden space-x-2 sm:flex">
-                        {/* Current: "border-indigo-600 ring-1 ring-indigo-600", Default: "border-gray-300" */}
-                        <a
-                            href="components#"
-                            className="inline-flex h-10 items-center rounded-md border border-gray-300 bg-white px-4 hover:bg-gray-100 focus:border-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-opacity-25 focus:ring-offset-1 focus:ring-offset-indigo-600"
-                        >
-                            1
-                        </a>
-                        <a
-                            href="components#"
-                            className="inline-flex h-10 items-center rounded-md border border-gray-300 bg-white px-4 hover:bg-gray-100 focus:border-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-opacity-25 focus:ring-offset-1 focus:ring-offset-indigo-600"
-                        >
-                            2
-                        </a>
-                        <a
-                            href="components#"
-                            className="inline-flex h-10 items-center rounded-md border border-indigo-600 bg-white px-4 ring-1 ring-indigo-600 hover:bg-gray-100 focus:border-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-opacity-25 focus:ring-offset-1 focus:ring-offset-indigo-600"
-                        >
-                            3
-                        </a>
-                        <span className="inline-flex h-10 items-center px-1.5 text-gray-500">...</span>
-                        <a
-                            href="components#"
-                            className="inline-flex h-10 items-center rounded-md border border-gray-300 bg-white px-4 hover:bg-gray-100 focus:border-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-opacity-25 focus:ring-offset-1 focus:ring-offset-indigo-600"
-                        >
-                            8
-                        </a>
-                        <a
-                            href="components#"
-                            className="inline-flex h-10 items-center rounded-md border border-gray-300 bg-white px-4 hover:bg-gray-100 focus:border-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-opacity-25 focus:ring-offset-1 focus:ring-offset-indigo-600"
-                        >
-                            9
-                        </a>
-                        <a
-                            href="components#"
-                            className="inline-flex h-10 items-center rounded-md border border-gray-300 bg-white px-4 hover:bg-gray-100 focus:border-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-opacity-25 focus:ring-offset-1 focus:ring-offset-indigo-600"
-                        >
-                            10
-                        </a>
-                    </div>
-                    <div className="flex min-w-0 flex-1 justify-end">
-                        <a
-                            href="components#"
-                            className="inline-flex h-10 items-center rounded-md border border-gray-300 bg-white px-4 hover:bg-gray-100 focus:border-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-opacity-25 focus:ring-offset-1 focus:ring-offset-indigo-600"
-                        >
-                            Next
-                        </a>
-                    </div>
-                </nav>
+                {/*<nav*/}
+                {/*    aria-label="Pagination"*/}
+                {/*    className="mx-auto mt-6 flex max-w-7xl justify-between px-4 text-sm font-medium text-gray-700 sm:px-6 lg:px-8"*/}
+                {/*>*/}
+                {/*    <div className="min-w-0 flex-1">*/}
+                {/*        <a*/}
+                {/*            href="components#"*/}
+                {/*            className="inline-flex h-10 items-center rounded-md border border-gray-300 bg-white px-4 hover:bg-gray-100 focus:border-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-opacity-25 focus:ring-offset-1 focus:ring-offset-indigo-600"*/}
+                {/*        >*/}
+                {/*            Previous*/}
+                {/*        </a>*/}
+                {/*    </div>*/}
+                {/*    <div className="hidden space-x-2 sm:flex">*/}
+                {/*        /!* Current: "border-indigo-600 ring-1 ring-indigo-600", Default: "border-gray-300" *!/*/}
+                {/*        <a*/}
+                {/*            href="components#"*/}
+                {/*            className="inline-flex h-10 items-center rounded-md border border-gray-300 bg-white px-4 hover:bg-gray-100 focus:border-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-opacity-25 focus:ring-offset-1 focus:ring-offset-indigo-600"*/}
+                {/*        >*/}
+                {/*            1*/}
+                {/*        </a>*/}
+                {/*        <a*/}
+                {/*            href="components#"*/}
+                {/*            className="inline-flex h-10 items-center rounded-md border border-gray-300 bg-white px-4 hover:bg-gray-100 focus:border-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-opacity-25 focus:ring-offset-1 focus:ring-offset-indigo-600"*/}
+                {/*        >*/}
+                {/*            2*/}
+                {/*        </a>*/}
+                {/*        <a*/}
+                {/*            href="components#"*/}
+                {/*            className="inline-flex h-10 items-center rounded-md border border-indigo-600 bg-white px-4 ring-1 ring-indigo-600 hover:bg-gray-100 focus:border-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-opacity-25 focus:ring-offset-1 focus:ring-offset-indigo-600"*/}
+                {/*        >*/}
+                {/*            3*/}
+                {/*        </a>*/}
+                {/*        <span className="inline-flex h-10 items-center px-1.5 text-gray-500">...</span>*/}
+                {/*        <a*/}
+                {/*            href="components#"*/}
+                {/*            className="inline-flex h-10 items-center rounded-md border border-gray-300 bg-white px-4 hover:bg-gray-100 focus:border-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-opacity-25 focus:ring-offset-1 focus:ring-offset-indigo-600"*/}
+                {/*        >*/}
+                {/*            8*/}
+                {/*        </a>*/}
+                {/*        <a*/}
+                {/*            href="components#"*/}
+                {/*            className="inline-flex h-10 items-center rounded-md border border-gray-300 bg-white px-4 hover:bg-gray-100 focus:border-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-opacity-25 focus:ring-offset-1 focus:ring-offset-indigo-600"*/}
+                {/*        >*/}
+                {/*            9*/}
+                {/*        </a>*/}
+                {/*        <a*/}
+                {/*            href="components#"*/}
+                {/*            className="inline-flex h-10 items-center rounded-md border border-gray-300 bg-white px-4 hover:bg-gray-100 focus:border-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-opacity-25 focus:ring-offset-1 focus:ring-offset-indigo-600"*/}
+                {/*        >*/}
+                {/*            10*/}
+                {/*        </a>*/}
+                {/*    </div>*/}
+                {/*    <div className="flex min-w-0 flex-1 justify-end">*/}
+                {/*        <a*/}
+                {/*            href="components#"*/}
+                {/*            className="inline-flex h-10 items-center rounded-md border border-gray-300 bg-white px-4 hover:bg-gray-100 focus:border-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-opacity-25 focus:ring-offset-1 focus:ring-offset-indigo-600"*/}
+                {/*        >*/}
+                {/*            Next*/}
+                {/*        </a>*/}
+                {/*    </div>*/}
+                {/*</nav>*/}
             </main>
         </div>
     )

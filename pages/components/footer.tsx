@@ -40,7 +40,7 @@ export default function Example() {
                             alt="Company name"
                         />
                         <p className="text-sm leading-6 text-gray-600">
-                            Making the world a better place through constructing elegant hierarchies.
+                            Discover a world of alluring scents and exquisite makeup, where beauty knows no bounds.
                         </p>
                     </div>
                     <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">

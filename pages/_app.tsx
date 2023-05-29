@@ -1,17 +1,14 @@
-import '../styles/globals.css'
+import '@/styles/globals.css'
 import type { AppProps } from 'next/app'
-import Header from '../components/header'
+import Head from 'next/head'
 
-function MyApp({ Component, pageProps }: AppProps) {
+export default function App({ Component, pageProps }: AppProps) {
   return (
-      <div>
-
-        <Header/>
-
+      <>
+        <Head>
+          <title>ENCHANT | LTD</title>
+        </Head>
         <Component {...pageProps} />
-
-      </div>
+      </>
   )
 }
-
-export default MyApp

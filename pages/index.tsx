@@ -1,6 +1,8 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 
+import Category from '@/pages/category'
+
 const inter = Inter({ subsets: ['latin'] })
 
 import { useState } from 'react'
@@ -8,47 +10,47 @@ import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-  { name: 'Parfums', href: '#' },
-  { name: 'Makeup', href: '#' },
-  { name: 'Face', href: '#' },
-  { name: 'Hair', href: '#' },
+  { name: 'Parfumes', href: '/category' },
+  { name: 'Makeup', href: '/category' },
+  { name: 'Face', href: '/category' },
+  { name: 'Hair', href: '/category' },
 ]
 
 const products = [
   {
     id: 1,
-    name: 'Leather Long Wallet',
-    color: 'Natural',
-    price: '$75',
+    name: 'Dior Sauvage',
+    color: 'Men',
+    price: '$175',
     href: '#',
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-04-trending-product-02.jpg',
+    imageSrc: 'https://static.beautytocare.com/media/catalog/product/cache/global/image/1300x1300/85e4522595efc69f496374d01ef2bf13/d/i/dior-sauvage-eau-de-toilette-200ml.jpg',
     imageAlt: 'Hand stitched, orange leather long wallet.',
   },
   {
     id: 2,
-    name: 'Leather Long Wallet',
-    color: 'Natural',
-    price: '$75',
+    name: 'Kylie Cosmetics Matte Lip Kit',
+    color: 'Women',
+    price: '$59',
     href: '#',
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-04-trending-product-02.jpg',
+    imageSrc: 'https://media.superpharm.eu/media/catalog/product/cache/07e643f7e64afe5b94f277b4a7389b28/k/y/kylie-cosmetics-matte-lip-kit-302-snow-way-bae-zestaw-do-makijazu-ust-1szt_2_.jpg',
     imageAlt: 'Hand stitched, orange leather long wallet.',
   },
   {
     id: 3,
-    name: 'Leather Long Wallet',
-    color: 'Natural',
-    price: '$75',
+    name: 'BLEU DE CHANEL',
+    color: 'Men',
+    price: '$199',
     href: '#',
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-04-trending-product-02.jpg',
+    imageSrc: 'https://media.douglas.pl/medias/Ir1VfB819600-0-global.jpg?context=bWFzdGVyfGltYWdlc3wzNDk1M3xpbWFnZS9qcGVnfGgzNy9oYTYvMTYxMzgyNzUwMjkwMjIvSXIxVmZCODE5NjAwXzBfZ2xvYmFsLmpwZ3xhNWI0NDVlMjdkNzljYTg2OWRmYWMwYjdhZDM1ZGM2ZmQzZWZkZWJkMmY3YTgyOWE1NGUzNGRmNmM1NjVkYmY2&grid=true',
     imageAlt: 'Hand stitched, orange leather long wallet.',
   },
   {
     id: 4,
-    name: 'Leather Long Wallet',
-    color: 'Natural',
+    name: 'INGLOT INTENSE SPARKLER',
+    color: 'Women',
     price: '$75',
     href: '#',
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-04-trending-product-02.jpg',
+    imageSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXIfZOngnsCg5XkjqxFkGdD9zkB_Q1ii4QRs3IVdO5RsxO9Pbn',
     imageAlt: 'Hand stitched, orange leather long wallet.',
   },
   // More products...
@@ -63,7 +65,7 @@ export default function Home() {
     <main>
 
 
-      <div className="bg-gray-900">
+      <div className="">
         <header className="absolute inset-x-0 top-0 z-50">
           <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
             <div className="flex lg:flex-1">
@@ -88,13 +90,13 @@ export default function Home() {
             </div>
             <div className="hidden lg:flex lg:gap-x-12">
               {navigation.map((item) => (
-                  <a key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-white">
+                  <a key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-black">
                     {item.name}
                   </a>
               ))}
             </div>
             <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-              <a href="#" className="text-sm font-semibold leading-6 text-white">
+              <a href="#" className="text-sm font-semibold leading-6 text-black">
                 Log in <span aria-hidden="true">&rarr;</span>
               </a>
             </div>
@@ -106,8 +108,8 @@ export default function Home() {
                 <a href="#" className="-m-1.5 p-1.5">
                   <span className="sr-only">Your Company</span>
                   <img
-                      className="h-8 w-auto"
-                      src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
+                      className="h-6 w-auto"
+                      src="/enchant-logo-white.png"
                       alt=""
                   />
                 </a>
@@ -163,12 +165,11 @@ export default function Home() {
           <div className="py-24 sm:py-32 lg:pb-40">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
               <div className="mx-auto max-w-2xl text-center">
-                <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
-                  Data to enrich your online business
+                <h1 className="text-4xl font-bold tracking-tight text-black sm:text-6xl">
+                  Scent & Glamour: Unleash Your Beauty
                 </h1>
-                <p className="mt-6 text-lg leading-8 text-gray-300">
-                  Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-                  fugiat veniam occaecat fugiat aliqua.
+                <p className="mt-6 text-lg leading-8 text-gray-700">
+                  Discover a world of alluring scents and exquisite makeup, where beauty knows no bounds.
                 </p>
                 {/*<div className="mt-10 flex items-center justify-center gap-x-6">*/}
                 {/*  <a*/}

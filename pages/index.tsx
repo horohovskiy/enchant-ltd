@@ -1,8 +1,6 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 
-import Category from '@/pages/category'
-
 const inter = Inter({ subsets: ['latin'] })
 
 import { useState } from 'react'
